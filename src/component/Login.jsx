@@ -4,6 +4,7 @@ import UserContext from "../context/UserContext";
 import "./Login.css";
 import Button from "./Button/Button";
 import ForgotPassword from "./ForgotPassword";
+import Spinner from "./Spinner/Spinner";
 
 function Login() {
   
@@ -66,7 +67,7 @@ function Login() {
           <Button onclick={loginAdmin} value={"Login"}
                   light={true}/>
           <a onClick={() => setIsForget(true)}>Forgot password</a>
-          {isLoading ? <div className="loader"></div> : null}
+          {isLoading ? <Spinner /> : null}
         </div>
       </div>
   );

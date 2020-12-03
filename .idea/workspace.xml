@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed07d5b8-4555-494c-81d3-edf8f2056576" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/ForgotPassword.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ForgotPassword.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Login.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +67,7 @@
       <workItem from="1606933813825" duration="7655000" />
       <workItem from="1606987188323" duration="5262000" />
       <workItem from="1607003839090" duration="7398000" />
-      <workItem from="1607012455374" duration="9166000" />
+      <workItem from="1607012455374" duration="10144000" />
     </task>
     <servers />
   </component>

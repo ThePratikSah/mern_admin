@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed07d5b8-4555-494c-81d3-edf8f2056576" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/ForgotPassword.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/ForgotPassword.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +64,7 @@
       <workItem from="1606933813825" duration="7655000" />
       <workItem from="1606987188323" duration="5262000" />
       <workItem from="1607003839090" duration="7398000" />
-      <workItem from="1607012455374" duration="10840000" />
+      <workItem from="1607012455374" duration="11303000" />
     </task>
     <servers />
   </component>

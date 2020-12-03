@@ -32,12 +32,12 @@ function App() {
       let currentTime = new Date().toISOString();
       let expiryTime = new Date(expTime).toISOString();
       if ((expiryTime > currentTime) && token) {
-        setUser({
+        setUser(user => ({
           ...user,
           isAuth: true,
           token,
           expiryTime
-        });
+        }));
       } else {
         token = "";
       }

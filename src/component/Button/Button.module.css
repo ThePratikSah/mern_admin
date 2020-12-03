@@ -1,0 +1,29 @@
+.buttonLight {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #7a29e4;
+  color: #ffffff;
+  background: #7a29e4;
+  transition: .3s ease-in-out;
+  cursor: pointer;
+  outline: none;
+}
+.buttonLight:hover {
+  background-color: #ffffff;
+  color: #7a29e4;
+}
+
+.buttonDark {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  background: #7a29e4;
+  transition: .3s ease-in-out;
+  cursor: pointer;
+  outline: none;
+}
+.buttonDark:hover {
+  background-color: #ffffff;
+  color: #7a29e4;
+}

@@ -13,15 +13,15 @@ function ForgotPassword() {
     setIsLoading((isLoading) => !isLoading);
   
     const url = "https://bakeology-alpha-stage.herokuapp.com/auth/user/login";
-    let res;
     try {
-      res = await Axios.post(url, {
+      let res = await Axios.post(url, {
         "email": email
       }, {
         headers: {
           'content-type': 'application/json'
         }
       });
+      console.log(res.data);
     } catch (err) {
       alert(`Invalid credentials ${err.message}`);
       setIsLoading((isLoading) => !isLoading);

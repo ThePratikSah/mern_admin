@@ -66,7 +66,7 @@ function Login() {
                  placeholder="******"/>
           <Button onclick={loginAdmin} value={"Login"}
                   light={true}/>
-          <a onClick={() => setIsForget(true)}>Forgot password</a>
+          <button className="" onClick={() => setIsForget(true)}>Forgot password</button>
           {isLoading ? <Spinner /> : null}
         </div>
       </div>

@@ -12,38 +12,36 @@ function App() {
     user: undefined,
     expiryTime: undefined
   });
-  
-  
-  //TODO: set timer in this function
-  const autoLogin = () => {
-    //check for the token in the localStorage
-    let token = localStorage.getItem("auth-token");
-    //check for the expiredTime in localStorage
-    let expTime = localStorage.getItem("exp-time");
-    if (token === null || expTime === null || expTime==="") {
-      //if no token key found, set it to an empty string
-      localStorage.setItem("auth-token", "");
-      localStorage.setItem("exp-time", "");
-      token = "";
-      expTime = "";
-      return;
-    }
-    
-    let currentTime = new Date().toISOString();
-    let expiryTime = new Date(expTime).toISOString();
-    if ((expiryTime > currentTime) && token) {
-      setUser({
-        ...user,
-        isAuth: true,
-        token,
-        expiryTime
-      });
-    } else {
-      token = "";
-    }
-  }
 
   useEffect(() => {
+    //TODO: set timer in this function
+    const autoLogin = () => {
+      //check for the token in the localStorage
+      let token = localStorage.getItem("auth-token");
+      //check for the expiredTime in localStorage
+      let expTime = localStorage.getItem("exp-time");
+      if (token === null || expTime === null || expTime==="") {
+        //if no token key found, set it to an empty string
+        localStorage.setItem("auth-token", "");
+        localStorage.setItem("exp-time", "");
+        token = "";
+        expTime = "";
+        return;
+      }
+    
+      let currentTime = new Date().toISOString();
+      let expiryTime = new Date(expTime).toISOString();
+      if ((expiryTime > currentTime) && token) {
+        setUser({
+          ...user,
+          isAuth: true,
+          token,
+          expiryTime
+        });
+      } else {
+        token = "";
+      }
+    }
     autoLogin();
   }, []);
   

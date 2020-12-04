@@ -1,5 +1,6 @@
 import React, {useContext} from "react";
 import Login from "./Login";
+import OrderSummary from "./OrderSummary/OrderSummary";
 import UserContext from "../context/UserContext";
 
 function Home() {
@@ -7,7 +8,7 @@ function Home() {
   
   return (
     <div>
-      {user.isAuth ? <h1>Home Component</h1> : <Login />}
+      {user.isAuth ? <OrderSummary /> : <Login />}
     </div>
   );
 }

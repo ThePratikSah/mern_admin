@@ -25,7 +25,7 @@ function Login() {
       return;
     }
     
-    const url = "https://bakeology-alpha-stage.herokuapp.com/auth/user/login";
+    const url = "https://delivery-nodejs.herokuapp.com/auth/administrator/login";
     let res;
     try {
       res = await Axios.post(url, {

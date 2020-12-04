@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed07d5b8-4555-494c-81d3-edf8f2056576" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Login.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +20,8 @@
       <list>
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="React JSX" />
         <option value="React CSS Module" />
+        <option value="React JSX" />
       </list>
     </option>
   </component>
@@ -40,7 +42,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -64,7 +66,7 @@
       <workItem from="1606933813825" duration="7655000" />
       <workItem from="1606987188323" duration="5262000" />
       <workItem from="1607003839090" duration="7398000" />
-      <workItem from="1607012455374" duration="11303000" />
+      <workItem from="1607012455374" duration="13288000" />
     </task>
     <servers />
   </component>

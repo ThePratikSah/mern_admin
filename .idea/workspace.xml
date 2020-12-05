@@ -7,8 +7,10 @@
     <list default="true" id="ed07d5b8-4555-494c-81d3-edf8f2056576" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/OrderSummary/OrderSummary.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/OrderSummary/OrderSummary.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/OrderSummary/OrderSummary.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/OrderSummary/OrderSummary.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +69,8 @@
       <workItem from="1606987188323" duration="5262000" />
       <workItem from="1607003839090" duration="7398000" />
       <workItem from="1607012455374" duration="13288000" />
+      <workItem from="1607141278661" duration="2499000" />
+      <workItem from="1607149291727" duration="6741000" />
     </task>
     <servers />
   </component>

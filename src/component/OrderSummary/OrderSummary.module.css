@@ -72,21 +72,29 @@
 }
 
 .OrderSummary__cardDetailsName {
-  font-weight: 400;
-  font-size: 36px;
+  font-weight: 500;
   letter-spacing: 1px;
 }
 
 .OrderSummary__cardDetailsPhone {
-  font-size: 20px;
   font-weight: 700;
   margin-bottom: 3px;
   color: #474747;
 }
 
+.OrderSummary__cardDetailsEmail {
+  font-weight: 300;
+}
+
 .OrderSummary__cardDetailsAddress {
   font-size: 22px;
-  color: #000000;
+}
+
+.OrderSummary__cardDetailsName,
+.OrderSummary__cardDetailsPhone,
+.OrderSummary__cardDetailsEmail,
+.OrderSummary__cardDetailsAddress {
+  font-size: 14px;
 }
 
 .OrderSummary__cardDetailsSenderDateTime,
@@ -112,13 +120,4 @@
   width: 50%;
   margin: 15px auto;
   text-decoration: none;
-}
-
-@media only screen and (min-width: 600px) {
-  .OrderSummary__cardDetailsName,
-  .OrderSummary__cardDetailsPhone,
-  .OrderSummary__cardDetailsEmail,
-  .OrderSummary__cardDetailsAddress {
-    font-size: 14px;
-  }
 }

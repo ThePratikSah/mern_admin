@@ -1,5 +1,6 @@
 .Home {
   display: flex;
+  height: 90vh;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;

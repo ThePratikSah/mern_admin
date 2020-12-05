@@ -1,54 +1,45 @@
-import React from "react";
-import classes from "./OrderSummary.module.css";
+import React, {useState, useEffect, useContext} from "react";
+import Axios from "axios";
+import UserContext from "../../context/UserContext";
+import Spinner from "../Spinner/Spinner";
+import OrderCard from "../OrderCard/OrderCard";
 
 function OrderSummary() {
+  const {user} = useContext(UserContext);
+  const [isLoading, setIsLoading] = useState(true);
+  const [orders, setOrders] = useState({});
+  
+  useEffect(() => {
+    const fetchOrders = async () => {
+      const url = "https://delivery-nodejs.herokuapp.com/admin/orders";
+      let res;
+      try {
+        res = await Axios.get(url, {
+          headers: {
+            'content-type': 'application/json',
+            'authorization': 'Bearer ' + user.token
+          }
+        });
+        console.log(res.data);
+        setOrders(res.data);
+        setIsLoading(false);
+      } catch (err) {
+        alert(`Invalid credentials ${err.message}`);
+        setIsLoading((isLoading) => !isLoading);
+        return;
+      }
+    }
+    fetchOrders();
+  }, []);
+  
   return (
-    <div className={classes.OrderSummary__parent}>
-      <div className={classes.OrderSummary__cardParent}>
-        <div className={classes.OrderSummary__card}>
-          <div>
-            <h2 className={classes.OrderSummary__cardHeader}>
-              <small>Txn ID:</small> #DL019021
-            </h2>
-          </div>
-          <div className={classes.OrderSummary__cardDetails}>
-            <div className={classes.OrderSummary__cardDetailsSender}>
-              <span className={classes.sender}>Sender</span>
-              <div
-                className={classes.OrderSummary__cardDetailsSenderPersonalInfo}
-              >
-                <span className={classes.OrderSummary__cardDetailsName}>Pratik Sah</span>
-                <span className={classes.OrderSummary__cardDetailsPhone}>+91-9876543210</span>
-                <span className={classes.OrderSummary__cardDetailsEmail}>email@gmail.com</span>
-                <span className={classes.OrderSummary__cardDetailsAddress}>Rammohini Chawk, Gulabbagh, Purnia, Bihar, 854326</span>
-              </div>
-              <div className={classes.OrderSummary__cardDetailsSenderDateTime}>
-                <span>Dec 04, 2020</span>
-                <span>02:23</span>
-              </div>
-            </div>
-            {/*<hr className={classes.HorizontalSeparation}/>*/}
-            <div className={classes.OrderSummary__cardDetailsReceiver}>
-              <span className={classes.receiver}>Receiver</span>
-              <div className={classes.OrderSummary__cardDetailsReceiverDateTime}>
-                <span className={classes.OrderSummary__cardDate}>Dec 04, 2020</span>
-                <span className={classes.OrderSummary__cardTime}>02:23</span>
-              </div>
-              <div
-                className={classes.OrderSummary__cardDetailsReceiverPersonalInfo}
-              >
-                <span className={classes.OrderSummary__cardDetailsName}>Shadiq Sir</span>
-                <span className={classes.OrderSummary__cardDetailsPhone}>+91-9876543210</span>
-                <span className={classes.OrderSummary__cardDetailsEmail}>shadiq@gmail.com</span>
-                <span className={classes.OrderSummary__cardDetailsAddress}>Purnea City, Khuskibagh, Purnia, Bihar, 854326</span>
-              </div>
-            </div>
-          {/* TODO:Add driver select tag */}
-          </div>
-        </div>
-      </div>
-    </div>
+      isLoading
+        ? <Spinner />
+        : orders.totalOrders
+          ? orders.orders.map((order, index) => <OrderCard key={order['_id']} data={orders['orders'][index]} />)
+          : <span>No Orders Found🤣</span>
   );
+  
 }
 
 export default OrderSummary;

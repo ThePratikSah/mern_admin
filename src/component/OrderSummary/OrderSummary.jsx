@@ -30,7 +30,7 @@ function OrderSummary() {
       }
     }
     fetchOrders();
-  }, []);
+  }, [user.token]);
   
   return (
       isLoading

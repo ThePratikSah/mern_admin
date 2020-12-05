@@ -42,8 +42,8 @@ function OrderCard(props) {
               </div>
               <div
                 className={classes.OrderSummary__cardDetailsSenderDateTime}>
-                <span>{getDateTime(sender["pickupTime"])[0]}</span>
-                <span>{getDateTime(sender["pickupTime"])[1]}</span>
+                <span>{getDateTime(sender["time"])[0]}</span>
+                <span>{getDateTime(sender["time"])[1]}</span>
               </div>
             </div>
             {/*<hr className={classes.HorizontalSeparation}/>*/}
@@ -52,9 +52,9 @@ function OrderCard(props) {
               <span className={classes.receiver}>Receiver</span>
               <div
                 className={classes.OrderSummary__cardDetailsReceiverDateTime}>
-                <span>{getDateTime(receiver["pickupTime"])[0]}</span>
+                <span>{getDateTime(receiver["time"])[0]}</span>
                 <span
-                  className={classes.OrderSummary__cardTime}>{getDateTime(receiver["pickupTime"])[1]}</span>
+                  className={classes.OrderSummary__cardTime}>{getDateTime(receiver["time"])[1]}</span>
               </div>
               <div
                 className={classes.OrderSummary__cardDetailsReceiverPersonalInfo}

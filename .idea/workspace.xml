@@ -8,9 +8,13 @@
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Button/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Button/Button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Home/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Login.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/OrderSummary/OrderSummary.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/OrderSummary/OrderSummary.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/component/OrderSummary/OrderSummary.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/OrderSummary/OrderSummary.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/Spinner/Spinner.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/Spinner/Spinner.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +26,8 @@
       <list>
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="React CSS Module" />
         <option value="React JSX" />
+        <option value="React CSS Module" />
       </list>
     </option>
   </component>
@@ -46,6 +50,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\prati\Downloads\mern_auth\client\src\component\Home" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="App.jsx" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/App.jsx" working-dir="$PROJECT_DIR$/src">
@@ -70,7 +79,8 @@
       <workItem from="1607003839090" duration="7398000" />
       <workItem from="1607012455374" duration="13288000" />
       <workItem from="1607141278661" duration="2499000" />
-      <workItem from="1607149291727" duration="6741000" />
+      <workItem from="1607149291727" duration="7079000" />
+      <workItem from="1607163211061" duration="5168000" />
     </task>
     <servers />
   </component>

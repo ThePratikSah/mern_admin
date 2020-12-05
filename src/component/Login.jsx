@@ -22,6 +22,7 @@ function Login() {
     
     if (!email || !password) {
       alert("Empty");
+      setIsLoading((isLoading) => !isLoading);
       return;
     }
     
@@ -64,9 +65,9 @@ function Login() {
           <input id="email" type="email" placeholder="email"/>
           <input id="password" type="password"
                  placeholder="******"/>
-          <Button onclick={loginAdmin} value={"Login"}
+          <Button isDisabled={false} onclick={loginAdmin} value={"Login"}
                   light={true}/>
-          <button className="" onClick={() => setIsForget(true)}>Forgot password</button>
+          <button onClick={() => setIsForget(true)}>Forgot password</button>
           {isLoading ? <Spinner /> : null}
         </div>
       </div>

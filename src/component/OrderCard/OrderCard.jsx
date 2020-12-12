@@ -18,6 +18,9 @@ function OrderCard(props) {
   
   return (
     <div className={classes.OrderSummary__parent}>
+      <div className={classes.OrderWeight}>
+        <p>{data.weight} KG | ₹{data.amount}</p>
+      </div>
       <div className={classes.OrderSummary__cardParent}>
         <div className={classes.OrderSummary__card}>
           <div>

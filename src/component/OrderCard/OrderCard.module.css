@@ -1,3 +1,16 @@
+.OrderWeight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 20px;
+  margin: 0 20px;
+  background-color: tomato;
+  color: #f1f1f1;
+  font-weight: 600;
+  text-align: center;
+  border-radius: 5px 5px 0 0;
+}
+
 .OrderSummary__parent {
   display: flex;
   flex-direction: column;
@@ -13,6 +26,7 @@
 
 .OrderSummary__card {
   display: flex;
+  max-width: 300px;
   border: 1px solid #7a29e4;
   border-top: 5px solid #7a29e4;
   border-radius: 5px;
